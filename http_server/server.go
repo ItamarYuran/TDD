@@ -60,8 +60,8 @@ func (p *PlayerServer) showScore(w http.ResponseWriter, player string) {
 
 	if score == 0 {
 		w.WriteHeader(http.StatusNotFound)
-	}
 
+	}
 	fmt.Fprint(w, score)
 }
 
