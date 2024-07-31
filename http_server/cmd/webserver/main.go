@@ -1,6 +1,6 @@
 package main
 
-import (/Users/itamar/projects/TDD
+import (
 	"log"
 	"net/http"
 	"os"
